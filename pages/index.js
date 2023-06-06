@@ -1,7 +1,7 @@
 import Image from "next/image";
-import { Inter } from "next/font/google";
+
 import { useEffect, useRef, useState } from "react";
-const inter = Inter({ subsets: ["latin"] });
+
 import * as tf from "@tensorflow/tfjs";
 import { PERMANENT_REDIRECT_STATUS } from "next/dist/shared/lib/constants";
 import DrawableCanvas from "../component/draw";
