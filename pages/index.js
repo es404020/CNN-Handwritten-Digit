@@ -68,6 +68,8 @@ export default function Home() {
       >
         clear
       </button>
+
+      <span  className="text-orange-400" >Result might immediately not show  because browser is still downloading model</span>
     </div>
   );
 }
